@@ -1,9 +1,11 @@
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
 import { BrowserRouter } from 'react-router-dom';
+// import { Provider } from 'react-redux';
+// import store from './redux/store';
 
-// import './index.css';
+import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
@@ -13,12 +15,13 @@ root.render(
   <BrowserRouter>
     <App />
   </BrowserRouter>
+
 );
 
 // ReactDOM.render(
 //   <BrowserRouter>
 //     <App/>
-//   </BrowserRouter>
+//   </BrowserRouter>,
 //   document.getElementById('root')
 // );
   

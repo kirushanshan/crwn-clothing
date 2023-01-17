@@ -1,13 +1,13 @@
-// import {createStore, applyMiddleware} from 'redux';
-// // import logger from 'redux-logger';
+import {createStore, applyMiddleware} from 'redux';
+import logger from 'redux-logger';
 
-// import rootReduser from './root-reduser';
+import rootReduser from './root-reduser';
 
-// // const middlewares = [logger];
+const middlewares = [logger];
 
-// const store = createStore(rootReduser, applyMiddleware(...middlewares));
+const store = createStore(rootReduser, applyMiddleware(...middlewares));
 
-// export default store;
+export default store;
 
 
 
